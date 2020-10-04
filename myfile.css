@@ -1,6 +1,7 @@
+body {
+background-image: linear-gradient(to bottom right, white, yellow, red, balck, white, black, red, yellow, white);
+}
 .yy {
 color: green;
 }
-body {
-background-image: linear-gradient(to bottom right, white, darkyellow, darkred, balck, white, black, darkred, darkyellow, white);
-{
+
