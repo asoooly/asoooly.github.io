@@ -1,3 +1,6 @@
 .yy {
 color: green;
 }
+body {
+background-image: liner-gradient(to bottom right, white, darkyellow, darkred, balck, white, black, darkred, darkyellow, white);
+{
