@@ -4,51 +4,51 @@ height: 1800px;
 width: 1000px;
 }
 @keyframes hell1 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 600px;top: 200px;}
+25% {left: 20px;top: 200px;}
+50% {left: 20px;top: 800px;}
+75% {left: 600px;top: 800px;}
+100% {left: 600px;top: 200px;}
 }
 @keyframes hell12 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 520px;top: 200px;}
+25% {left: 520px;top: 800px;}
+50% {left: 520px;top: 100px;}
+75% {left: 520px;top: 800px;}
+100% {left: 520px;top: 200px;}
 }
 @keyframes hell2 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 180px;top: 200px;}
+25% {left: 600px;top: 200px;}
+50% {left: 600px;top: 900px;}
+75% {left: 180px;top: 900px;}
+100% {left: 180px;top: 200px;}
 }
 @keyframes hell3 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 600px;top: 450px;}
+25% {left: 600px;top: 700px;}
+50% {left: 100px;top: 700px;}
+75% {left: 100px;top: 450px;}
+100% {left: 600px;top: 450px;}
 }
 @keyframes hell4 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 380px;top: 450px;}
+25% {left: 600px;top: 450px;}
+50% {left: 600px;top: 800px;}
+75% {left: 380px;top: 800px;}
+100% {left: 380px;top: 450px;}
 }
 @keyframes hell5 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 400px;top: 760px;}
+25% {left: 10px;top: 750px;}
+50% {left: 10px;top: 50px;}
+75% {left: 400px;top: 50px;}
+100% {left: 400px;top: 760px;}
 }
 @keyframes hell6 {
-0%  {left: ;top: ;}
-25% {left: ;top: ;}
-50% {left: ;top: ;}
-75% {left: ;top: ;}
-100% {left: ;top: ;}
+0%  {left: 220px;top: 760px;}
+25% {left: 220px;top: 50px;}
+50% {left: 600px;top: 50px;}
+75% {left: 600px;top: 760px;}
+100% {left: 220px;top: 760px;}
 }
