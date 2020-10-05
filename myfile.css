@@ -52,7 +52,7 @@ width: 1000px;
 75% {left: 600px;top: 760px;}
 100% {left: 220px;top: 760px;}
 }
-.btnenter {
+button .btnenter {
 color: black;
 font-size: 40px;
 width: 250px;
