@@ -54,10 +54,12 @@ width: 1000px;
 }
 .btnenter {
 color: black;
-font-size: 40px;
+font-size: 60px;
+border-radius: 30px;
+border: 10px dotted black;
 width: 250px;
 height: 125px;
 position: absolute;
-left: 600px;
-top: 1050px;
+left: 500px;
+top: 990px;
 }
