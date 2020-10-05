@@ -53,10 +53,10 @@ width: 1000px;
 100% {left: 220px;top: 760px;}
 }
 .btnenter {
-background: lightgreen;
+background: green;
 color: black;
-width: 500px;
-height: 250px;
+width: 250px;
+height: 125px;
 left: 700px;
 top: 1400px;
 }
