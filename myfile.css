@@ -57,6 +57,7 @@ color: black;
 font-size: 40px;
 width: 250px;
 height: 125px;
+position: absolute;
 left: 700px;
 top: 1400px;
 }
