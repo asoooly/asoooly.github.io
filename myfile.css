@@ -52,3 +52,11 @@ width: 1000px;
 75% {left: 600px;top: 760px;}
 100% {left: 220px;top: 760px;}
 }
+.btnenter {
+background: lightgreen;
+color: black;
+width: 500px;
+height: 250px;
+left: 700px;
+top: 1400px;
+}
