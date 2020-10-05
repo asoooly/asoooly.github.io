@@ -3,3 +3,9 @@ background-image: linear-gradient(to bottom right, white, yellow, red, black, gr
 height: 1800px;
 width: 1000px;
 }
+@keyframes hell1 {
+0%  {}
+25% {}
+50% {}
+75% {}
+}
