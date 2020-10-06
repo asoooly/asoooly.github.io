@@ -1,7 +1,7 @@
 .divbody {
 background-image: linear-gradient(to bottom right, white, yellow, red, black, green, blue, red, blue, green, black, red, yellow, white);
-height: height;
-width: width;
+height: auto;
+width: auto;
 }
 .btnenter {
 color: black;
