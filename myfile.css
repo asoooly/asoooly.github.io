@@ -52,14 +52,3 @@ width: 1000px;
 75% {left: 600px;top: 760px;}
 100% {left: 220px;top: 760px;}
 }
-.btnenter {
-color: black;
-font-size: 60px;
-border-radius: 30px;
-border: 10px solid black;
-width: 250px;
-height: 125px;
-position: absolute;
-left: 500px;
-top: 990px;
-}
