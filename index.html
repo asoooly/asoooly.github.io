@@ -56,7 +56,8 @@ $(".hello6").css({
 //click btnenter 
 $(".page1").show();
 $(".page2").hide();
-$("#btnenter").click(function() {
+$("#btnenter").click(function(event) {
+event.preventDefault(event)
 $(".page1").hide("fast")
 $(".page2").show("fast");
 })
