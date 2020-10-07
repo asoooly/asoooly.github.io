@@ -6,8 +6,8 @@ border: 10px solid black;
 width: 300px;
 height: 225px;
 position: absolute;
-left: 480px;
-top: 1090px;
+left:480px;
+top:1090px;
 }
 @keyframes hell1 {
 0%  {left: 600px;top: 200px;}
