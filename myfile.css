@@ -74,23 +74,7 @@ height: 300px;
 left: 250px;
 top: 0px;
 }
-.header1 {
-font-size: 60px;
-position: fixed;
-left: 350px;
-top: 100px;
-color: red;
-}
-.header2 {
-font-size: 30px;
-left: 300px;
-top: 250px;
-}
-.header3 {
-font-size: 30px;
-left: 250px;
-top: 250px;
-}
+
 .floor {
 position: absolute;
 font-size: 20px;
