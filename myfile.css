@@ -87,7 +87,7 @@ color: black;
 .header .header3 {
 font-size: 30px;
 position: absolute;
-padding-left: 1px;
+padding-left: 0px;
 padding-right: 300px;
 padding-top: 250px;
 color: black;
@@ -120,8 +120,8 @@ padding-left: 800px;
 padding-right: 150px;
 padding-top: 300px;
 padding-bottom: 1400px;
-height:
-width:
+height: 100px;
+width: 100px;
 background: linen;
 color: red;
 }
@@ -132,6 +132,8 @@ padding-left: 150px;
 padding-right: 800px;
 padding-top: 300px;
 padding-bottom: 1400px;
+height: 100px;
+width: 100px
 background: linen;
 color: black;
 }
