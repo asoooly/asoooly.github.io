@@ -96,6 +96,8 @@ color: black;
 font-size: 20px;
 border: 10px solid black;
 position: fixed;
+height: 1450px;
+width: 900px;
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 200px;
@@ -106,6 +108,8 @@ color: white;
 .infoProg {
 font-size: 40px;
 position: fixed;
+height: 150px;
+width: 500px;
 padding-left: 250px;
 padding-right: 250px;
 padding-top: 1650px;
@@ -133,14 +137,14 @@ padding-right: 800px;
 padding-top: 300px;
 padding-bottom: 1400px;
 height: 100px;
-width: 100px
+width: 100px;
 background: linen;
 color: black;
 }
 .sec1 {
 background: black;
 color: white;
-font-size: 15px
+font-size: 15px;
 position: fixed;
 height: 50px;
 width: 100px;
@@ -179,7 +183,7 @@ padding-bottom: 1350px;
 .sec4 {
 background: yellow;
 color: white;
-font-size: 15px
+font-size: 15px;
 position: fixed;
 height: 50px;
 width: 100px;
@@ -192,7 +196,7 @@ padding-bottom: 1350px;
 .sec5 {
 background: purple;
 color: white;
-font-size: 15px
+font-size: 15px;
 position: fixed;
 height: 50px;
 width: 100px;
