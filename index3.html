@@ -62,13 +62,17 @@ $("#aa-btn5").click(function(event) {
   $(this).css("background-color","black");
 });*/
 
-$(".aa-infoprice").hide(-10000000);
-$(".aa-btnimg").click(function() {
+$(".aa-infoprice").hide(0);
+$(".aa-btnimg").click(function(event) {
+event.preventDefault();
 $(".aa-up").fadeTo(1000, 0.2);
 var valofprice = $(this).val();
 $(".aa-infoprice").html($(".aa-infoprice").html() + valofprice).show("fast");
 });
-
+$(".aa-infoprice").click(function(event) {
+event.preventDefault();
+$(".aa-infoprice").hide();
+});
 
 });
 </script>
