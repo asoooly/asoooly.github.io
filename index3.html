@@ -68,7 +68,10 @@ var valofprice = $(this).val();
 $(".aa-up").fadeTo(1000, 0.2);
 $(".aa-infoprice").show("fast").html($(".aa-infoprice").html() + valofprice + "هل تريد اضافة المنتج الى المشتريات بسعر :");
 });
-
+$(".aa-noprice").click(function() {
+$(".aa-up").fadeTo(1000, 1);
+$(".aa-infoprice").html().hide("fast");
+});
 
 
 });
