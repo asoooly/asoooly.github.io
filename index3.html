@@ -68,8 +68,9 @@ var valofprice = $(this).val();
 $(".aa-up").fadeTo(1000, 0.2);
 $(".aa-infoprice").show("fast").html($(".aa-infoprice").html() + valofprice + "هل تريد اضافة المنتج الى المشتريات بسعر :");
 });
-$(".aa-nooprice").click(function() {
+$(".aa-noprice").html().click(function() {
 $(".aa-up").fadeTo(1000, 1);
+$(".aa-infoprice").html().hide("fast")
 });
 
 
@@ -109,7 +110,7 @@ $(".aa-up").fadeTo(1000, 1);
   </div>
   <div class="aa-infoprice" style="background-color:pink;color:white;position:absolute;border:5px solid white;border-radius:20px;height:30%;width:60%;left:20%;top:35%;">
 <button style="background-color:green;border:5px solid white;border-radius:20px;position:absolute;right:5% ;bottom:10%;width:40%;height:20%;color:white;text-align:center;font-size:50px;">نعم</button>
-<button class="aa-noprice aa-nooprice" style="background-color:red  ;border:5px solid white;border-radius:20px;position:absolute;left:5%;bottom:10%;width:40%;height:20%;color:white;text-align:center;font-size:50px;">لا </button>
+<button class="aa-noprice" style="background-color:red  ;border:5px solid white;border-radius:20px;position:absolute;left:5%;bottom:10%;width:40%;height:20%;color:white;text-align:center;font-size:50px;">لا </button>
   </div>
 </body>
 </html>
