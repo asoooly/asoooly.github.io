@@ -66,13 +66,14 @@ $(".aa-infoprice").hide();
 $(".aa-btnimg").click(function() {
 $(".aa-up").fadeTo(1000, 0.2);
 $(".aa-infoprice").show("fast");
+var valofprice = $(this).val();
 $(".aa-infoprice").text(valofprice + "هل تريد اضافة المنتج الى المشتريات بسعر :");
 });
 $(".aa-noprice").click(function() {
 $(".aa-up").fadeTo(1000, 1);
 $(".aa-infoprice").hide("fast");
 });
-var valofprice = $("aa-btnimg").val();
+
 
 });
 </script>
