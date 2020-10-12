@@ -64,15 +64,11 @@ $("#aa-btn5").click(function(event) {
 
 $(".aa-infoprice").hide();
 $(".aa-btnimg").click(function() {
-$(".aa-up").fadeTo(1000, 0.2);
-$(".aa-infoprice").show("fast");
 var valofprice = $(this).val();
-$(".aa-infoprice").html($(".aa-infoprice").html() + valofprice + "هل تريد اضافة المنتج الى المشتريات بسعر :");
+$(".aa-up").fadeTo(1000, 0.2);
+$(".aa-infoprice").show("fast").html($(".aa-infoprice").html() + valofprice + "هل تريد اضافة المنتج الى المشتريات بسعر :");
 });
-$(".aa-noprice").click(function() {
-$(".aa-up").fadeTo(1000, 1);
-$(".aa-infoprice").hide("fast");
-});
+
 
 
 });
