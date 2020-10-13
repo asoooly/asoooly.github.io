@@ -81,7 +81,8 @@ $(".aa-btnimg").click(function(event) {
 });
 $("aa-noprice").click(function(event) {
      event.preventDefault();
-     $(".aa-infoprice").html().hide("fast");
+     valofprice = $(this).val();
+     $(".aa-infoprice").html($(".aa-infoprice").html() + valofprice).hide("fast");
 });
 
 
