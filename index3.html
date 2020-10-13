@@ -57,36 +57,6 @@ $("#aa-btn5").click(function(event) {
   $(".aa-show5").show("fast");
   $(".aa-sharecolor").css("background","#ccccff");
 });
-/*$("button").click(function() {
-  event.preventDefault();
-  $(this).css("background-color","black");
-});*/
-
-$(".aa-infoprice").html().hide(0);
-$(".aa-btnimg").click(function(event) {
-event.preventDefault();
-$(".aa-up").fadeTo(1000, 0.2);
-var valofprice = $(this).val();
-$(".aa-infoprice").html($(".aa-infoprice").html() + valofprice).show("fast", function() {
-$(".aa-noprice").click(function() {
-$(".aa-up").fadeTo(1000, 1);
-$(".aa-infoprice").hide("fast");
-});
-/*
-$(".aa-infoprice").hide(0);
-     var valofprice;
-$(".aa-btnimg").click(function(event) {
-     event.preventDefault();
-     valofprice = $(this).val();
-     $(".aa-infoprice").html($(".aa-infoprice").html() + valofprice).show("fast");
-});
-$("aa-noprice").click(function(event) {
-     event.preventDefault();
-     valofprice = $(this).val();
-     $(".aa-infoprice").html($(".aa-infoprice").html() + valofprice).hide("fast");
-});
-*/
-
 
 });
 </script>
