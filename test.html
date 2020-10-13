@@ -8,10 +8,7 @@ $(document).ready(function(){
     $.post("shopmekiage.asp",
     {
       name: $(".input").val(),
-      city: "Duckburg"
-    },
-    function(data,status){
-      alert("Data: " + data + "\nStatus: " + status);
+      city: $(".input").val()
     });
   });
 });
@@ -19,7 +16,7 @@ $(document).ready(function(){
 </head>
 <body>
 <form>
-<input type="text"  class="input" value="">
+<input type="text"  class="input">
 <button>ارسال </button>
 </form>
 </body>
