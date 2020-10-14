@@ -62,12 +62,8 @@ $(".aa-infoprice").hide(1);
 var infoprice ;
 $(".aa-btnimg").click(function() {
 $(".aa-up").fadeTo(1000, 0.3);
-infoprice = $(".aa-infoprice").html($(".aa-infoprice").html() + $(this).val())
-infoprice.show("fast", function() {
-$(".aa-noprice").click(function() {
-$(".aa-up").fadeTo(1000, 1);
-});
-});
+$(".aa-infoprice").html($(".aa-infoprice").html() + $(this).val())
+$(".aa-infoprice").show("fast");
 });
 
 
