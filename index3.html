@@ -60,7 +60,6 @@ $("#aa-btn5").click(function(event) {
 
 $(".aa-infoprice").hide(1);
 $(".aa-btnimg").click(function() {
-$(this).val("");
 $(".aa-up").fadeTo(1000, 0.3);
 $(".aa-btnimg").hide("fast");
 $(".aa-infoprice").html($(".aa-infoprice").html() + $(this).val());
@@ -70,7 +69,7 @@ $(".aa-noprice").click(function() {
 $(".aa-up").fadeTo(1000, 1);
 $(".aa-btnimg").show("fast");
 $(".aa-infoprice").hide("fast");
-
+$(aa-btnimg).val("");
           });
      });
 });
