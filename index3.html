@@ -69,12 +69,12 @@ $("#aa-btn5").click(function(event) {
 
 $(".aa-btnimg").click(function() {
 $(".aa-up").fadeTo(1, 0.3);
-$(".aa-btnimg").hide("fast");
+$(".aa-btnimg, button").hide("fast");
 $(".aa-infoprice").show("fast", function() {
 
 $(".aa-noprice").click(function() {
 $(".aa-up").fadeTo(1, 1);
-$(".aa-btnimg").show("fast");
+$(".aa-btnimg, button").show("fast");
 $(".aa-infoprice").hide("fast");
           });
      });
