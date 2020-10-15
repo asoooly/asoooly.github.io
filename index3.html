@@ -62,7 +62,7 @@ $(".aa-infoprice").hide(1);
 $(".aa-btnimg").click(function() {
 $(".aa-up").fadeTo(1000, 0.3);
 $(".aa-btnimg").hide("fast");
-$(".aa-infoprice").append("هل تريد اضافة المنتج الى سلة المشتريات");
+$(".aa-infoprice").append($(".aa-btnimg").val() +"هل تريد اضافة المنتج الى سلة المشتريات");
 $(".aa-infoprice").show("fast", function() {
 
 $(".aa-infoprice").click(function() {
