@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<p>
+<p id="p1">
 <?php
 echo "My first PHP script!";
 ?>
