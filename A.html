@@ -4,7 +4,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-$.get("shopmekiage.php", function(data) {
+$.load("shopmekiage.php #p1", function(data) {
 $("p").text("this" + data);
 });
 
