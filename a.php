@@ -1,6 +1,13 @@
-<!DOCTYPE html>
 <html>
 <body>
-&nbsp
+Welcome 
+<?php 
+echo $_GET["name"]; 
+?>
+<br>
+Your email address is: 
+<?php 
+echo $_GET["email"]; 
+?> 
 </body>
 </html>
