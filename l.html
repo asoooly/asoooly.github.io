@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-<form action="a.html" method="get">
+<form method="get">
 <label>الاسم :</label>
 <input type="text" name="name"><br>
 <label>الايميل :</label>
 <input type="text" name="email"><br>
 <input type="submit" name="submit">
 </form>
+<br><br>
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>
+
 </body>
 </html>
