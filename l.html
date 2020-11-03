@@ -9,8 +9,10 @@
 <input type="submit" name="submit">
 </form>
 <br><br>
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
+Welcome <?php
+if (isset("submit")) { echo $_GET["name"];} ?><br>
+Your email address is: <?php 
+if (isset("submit")) { echo $_GET["email"];} ?>
 
 </body>
 </html>
