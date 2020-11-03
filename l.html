@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+				<title>Page title</title>
+				<style>
+								body {
+												background: #ff5f55;
+								}
+				</style>
+</head>
 <body>
-<form method="get">
-<label>الاسم :</label>
-<input type="text" name="name"><br>
-<label>الايميل :</label>
-<input type="text" name="email"><br>
-<input type="submit" name="submit">
+				<form method="GET">
+Number 1<input type="number" name="n1"/>
+Number 2<input type="number" name="n1"/>
+<button type="submit" name="send">ارسال</button>
 </form>
-<br><br>
-Welcome <?php
-if (isset("submit")) { echo $_GET["name"];} ?><br>
-Your email address is: <?php 
-if (isset("submit")) { echo $_GET["email"];} ?>
+<?php
+if(isset($_GET['send'])){
+echo $_GET['n1'] + $_GET['n2'];
+}
+?>
 
 </body>
 </html>
